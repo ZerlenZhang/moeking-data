@@ -25,7 +25,8 @@ import com.moeking.data.utils.CharacterViewModel
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun CharacterListScreen(
-    viewModel: CharacterViewModel = viewModel()
+    viewModel: CharacterViewModel = viewModel(),
+    onNavigateToReactionDemo: () -> Unit = {}
 ) {
     val characters by viewModel.characters.collectAsState()
     val searchQuery by viewModel.searchQuery.collectAsState()
@@ -35,6 +36,9 @@ fun CharacterListScreen(
             TopAppBar(
                 title = { Text("萌王数据") },
                 actions = {
+                    IconButton(onClick = { onNavigateToReactionDemo() }) {
+                        Icon(Icons.Default.ArrowBack, contentDescription = "元素反应演示")
+                    }
                     IconButton(onClick = { viewModel.resetFilters() }) {
                         Icon(Icons.Default.Search, contentDescription = "重置筛选")
                     }

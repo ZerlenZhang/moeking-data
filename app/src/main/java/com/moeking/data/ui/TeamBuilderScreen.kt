@@ -31,7 +31,8 @@ import com.moeking.data.utils.TeamViewModel
 fun TeamBuilderScreen(
     viewModel: CharacterViewModel = viewModel(),
     teamViewModel: TeamViewModel = viewModel(),
-    navController: NavController
+    navController: NavController,
+    onNavigateToReactionDemo: () -> Unit = {}
 ) {
     val characters by viewModel.characters.collectAsState()
     val teams by teamViewModel.teams.collectAsState()
@@ -49,6 +50,9 @@ fun TeamBuilderScreen(
                     }
                 },
                 actions = {
+                    IconButton(onClick = { onNavigateToReactionDemo() }) {
+                        Icon(Icons.Default.ArrowBack, contentDescription = "元素反应演示")
+                    }
                     IconButton(onClick = { showAddDialog = true }) {
                         Icon(Icons.Default.Add, contentDescription = "添加队伍")
                     }

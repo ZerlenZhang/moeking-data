@@ -5,14 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.navigation.NavType
-import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
-import androidx.navigation.compose.rememberNavController
-import androidx.navigation.navArgument
-import com.moeking.data.ui.CharacterDetailScreen
-import com.moeking.data.ui.CharacterListScreen
-import com.moeking.data.ui.TeamBuilderScreen
+import com.moeking.data.ui.NavigationConfig
 
 /**
  * 主活动
@@ -26,52 +19,9 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    NavigationGraph()
+                    NavigationConfig()
                 }
             }
-        }
-    }
-}
-
-/**
- * 导航配置
- */
-@Composable
-fun NavigationGraph() {
-    val navController = rememberNavController()
-
-    NavHost(
-        navController = navController,
-        startDestination = "characters"
-    ) {
-        // 角色列表
-        composable("characters") {
-            CharacterListScreen(
-                onCharacterClick = { characterId ->
-                    navController.navigate("character_detail/$characterId")
-                }
-            )
-        }
-
-        // 角色详情
-        composable(
-            route = "character_detail/{characterId}",
-            arguments = listOf(
-                navArgument("characterId") { type = NavType.StringType }
-            )
-        ) { backStackEntry ->
-            val characterId = backStackEntry.arguments?.getString("characterId") ?: ""
-            CharacterDetailScreen(
-                characterId = characterId,
-                navController = navController
-            )
-        }
-
-        // 队伍搭配
-        composable("team_builder") {
-            TeamBuilderScreen(
-                navController = navController
-            )
         }
     }
 }
