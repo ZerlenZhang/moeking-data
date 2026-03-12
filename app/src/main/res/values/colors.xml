@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="moe_pink">#FF69B4</color>
+    <color name="moe_blue">#00BFFF</color>
+    <color name="moe_purple">#DDA0DD</color>
+    <color name="element_fire">#FF4500</color>
+    <color name="element_water">#1E90FF</color>
+    <color name="element_electric">#FFD700</color>
+    <color name="element_wind">#32CD32</color>
+    <color name="element_ice">#00FFFF</color>
+    <color name="element_geo">#8B4513</color>
+    <color name="element_grass">#32CD32</color>
+</resources>
