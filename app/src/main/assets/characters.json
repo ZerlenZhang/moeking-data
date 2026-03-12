@@ -1,0 +1,254 @@
+[
+  {
+    "id": "amber",
+    "name": "安柏",
+    "element": "FIRE",
+    "rarity": 4,
+    "weaponType": "BOW",
+    "stats": {
+      "hp": 1000,
+      "atk": 60,
+      "def": 50,
+      "speed": 100
+    },
+    "skills": [
+      {
+        "id": "skill_1",
+        "name": "普通攻击·羽箭",
+        "type": "NORMAL_ATTACK",
+        "description": "安柏的普通攻击，使用弓箭进行射击。"
+      },
+      {
+        "id": "skill_2",
+        "name": "元素战技·重击",
+        "type": "ELEMENTAL_SKILL",
+        "description": "安柏的元素战技，可以进行连续射击并造成火元素伤害。"
+      },
+      {
+        "id": "burst",
+        "name": "元素爆发·旋火轮",
+        "type": "ELEMENTAL_BURST",
+        "description": "安柏的元素爆发，召唤旋火轮对周围敌人造成火元素范围伤害。"
+      }
+    ],
+    "ratings": [
+      {
+        "game": "原神",
+        "tier": "T4",
+        "reason": "前期辅助角色，后期可用"
+      }
+    ],
+    "imageUrl": "",
+    "description": "蒙德城的侦察骑士，擅长使用弓箭和火元素。"
+  },
+  {
+    "id": "xiao",
+    "name": "魈",
+    "element": "WIND",
+    "rarity": 5,
+    "weaponType": "POLEARM",
+    "stats": {
+      "hp": 1200,
+      "atk": 100,
+      "def": 60,
+      "speed": 110
+    },
+    "skills": [
+      {
+        "id": "skill_1",
+        "name": "普通攻击·风轮两立",
+        "type": "NORMAL_ATTACK",
+        "description": "魈的普通攻击，使用长柄武器进行攻击。"
+      },
+      {
+        "id": "skill_2",
+        "name": "元素战技·踏风",
+        "type": "ELEMENTAL_SKILL",
+        "description": "魈的元素战技，可以进行多段攻击。"
+      },
+      {
+        "id": "burst",
+        "name": "元素爆发·降魔大圣",
+        "type": "ELEMENTAL_BURST",
+        "description": "魈的元素爆发，化身降魔大圣，造成大量风元素伤害。"
+      }
+    ],
+    "ratings": [
+      {
+        "game": "原神",
+        "tier": "T0",
+        "reason": "顶级输出角色，爆发伤害极高"
+      }
+    ],
+    "imageUrl": "",
+    "description": "璃月的夜叉，守护璃月三千年，使用风元素长柄武器。"
+  },
+  {
+    "id": "raiden",
+    "name": "雷电将军",
+    "element": "ELECTRIC",
+    "rarity": 5,
+    "weaponType": "POLEARM",
+    "stats": {
+      "hp": 1500,
+      "atk": 120,
+      "def": 70,
+      "speed": 105
+    },
+    "skills": [
+      {
+        "id": "skill_1",
+        "name": "普通攻击",
+        "type": "NORMAL_ATTACK",
+        "description": "雷电将军的普通攻击。"
+      },
+      {
+        "id": "skill_2",
+        "name": "元素战技·无想的一刀",
+        "type": "ELEMENTAL_SKILL",
+        "description": "雷电将军的元素战技，进行斩击。"
+      },
+      {
+        "id": "burst",
+        "name": "元素爆发·梦想真说",
+        "type": "ELEMENTAL_BURST",
+        "description": "雷电将军的元素爆发，发动雷元素领域，造成持续伤害。"
+      }
+    ],
+    "ratings": [
+      {
+        "game": "原神",
+        "tier": "T0",
+        "reason": "顶级输出角色，元素爆发伤害极高"
+      }
+    ],
+    "imageUrl": "",
+    "description": "稻妻的雷神，掌控雷电之力，使用雷元素长柄武器。"
+  },
+  {
+    "id": "hutao",
+    "name": "胡桃",
+    "element": "FIRE",
+    "rarity": 5,
+    "weaponType": "POLEARM",
+    "stats": {
+      "hp": 1300,
+      "atk": 90,
+      "def": 80,
+      "speed": 100
+    },
+    "skills": [
+      {
+        "id": "skill_1",
+        "name": "普通攻击",
+        "type": "NORMAL_ATTACK",
+        "description": "胡桃的普通攻击。"
+      },
+      {
+        "id": "skill_2",
+        "name": "元素战技·蝶引二魂",
+        "type": "ELEMENTAL_SKILL",
+        "description": "胡桃的元素战技，切换形态造成火元素伤害。"
+      },
+      {
+        "id": "burst",
+        "name": "元素爆发·往生堂秘传",
+        "type": "ELEMENTAL_BURST",
+        "description": "胡桃的元素爆发，造成大量火元素伤害并回复生命值。"
+      }
+    ],
+    "ratings": [
+      {
+        "game": "原神",
+        "tier": "T0",
+        "reason": "顶级输出角色，元素爆发伤害极高"
+      }
+    ],
+    "imageUrl": "",
+    "description": "往生堂第七十七代堂主，使用火元素长柄武器。"
+  },
+  {
+    "id": "zhongli",
+    "name": "钟离",
+    "element": "GEO",
+    "rarity": 5,
+    "weaponType": "POLEARM",
+    "stats": {
+      "hp": 1800,
+      "atk": 80,
+      "def": 120,
+      "speed": 95
+    },
+    "skills": [
+      {
+        "id": "skill_1",
+        "name": "普通攻击",
+        "type": "NORMAL_ATTACK",
+        "description": "钟离的普通攻击。"
+      },
+      {
+        "id": "skill_2",
+        "name": "元素战技·岩脊",
+        "type": "ELEMENTAL_SKILL",
+        "description": "钟离的元素战技，生成岩脊。"
+      },
+      {
+        "id": "burst",
+        "name": "元素爆发·天星",
+        "type": "ELEMENTAL_BURST",
+        "description": "钟离的元素爆发，降下一颗巨大的陨石，造成岩元素伤害。"
+      }
+    ],
+    "ratings": [
+      {
+        "game": "原神",
+        "tier": "T1",
+        "reason": "顶级护盾角色，能提供强大的护盾保护"
+      }
+    ],
+    "imageUrl": "",
+    "description": "璃月七星中的玉衡星，使用岩元素长柄武器。"
+  },
+  {
+    "id": "baizhu",
+    "name": "白术",
+    "element": "GRASS",
+    "rarity": 5,
+    "weaponType": "POLEARM",
+    "stats": {
+      "hp": 1400,
+      "atk": 70,
+      "def": 100,
+      "speed": 90
+    },
+    "skills": [
+      {
+        "id": "skill_1",
+        "name": "普通攻击",
+        "type": "NORMAL_ATTACK",
+        "description": "白术的普通攻击。"
+      },
+      {
+        "id": "skill_2",
+        "name": "元素战技·问心",
+        "type": "ELEMENTAL_SKILL",
+        "description": "白术的元素战技，治疗友方角色。"
+      },
+      {
+        "id": "burst",
+        "name": "元素爆发·千岩固",
+        "type": "ELEMENTAL_BURST",
+        "description": "白术的元素爆发，提供护盾和治疗效果。"
+      }
+    ],
+    "ratings": [
+      {
+        "game": "原神",
+        "tier": "T1",
+        "reason": "优秀治疗角色，能提供护盾和治疗效果"
+      }
+    ],
+    "imageUrl": "",
+    "description": "稻妻的医仙，使用草元素长柄武器，擅长治疗。"
+  }
+]
